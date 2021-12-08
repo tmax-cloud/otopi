@@ -57,6 +57,7 @@ class Plugin(plugin.PluginBase):
             'redhat',
             'fedora',
             'centos',
+            'prolinux',
             'ibm_powerkvm',
         ):
             self.logger.warning(

@@ -38,6 +38,7 @@ def ok_to_use_dnf():
             distribution in (
                 'redhat',
                 'centos',
+                'prolinux',
                 'ibm_powerkvm',
             ) and
             version >= '8'
